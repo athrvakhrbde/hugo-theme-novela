@@ -1,0 +1,7 @@
+# ...existing code...
+{{ range .Site.Params.Social }}
+  <a href="{{ .url }}" title="{{ .title }}">
+    <i class="{{ .icon }}"></i>
+  </a>
+{{ end }}
+# ...existing code...

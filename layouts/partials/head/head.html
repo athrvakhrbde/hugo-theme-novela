@@ -12,4 +12,7 @@
     {{ with .Params.forestry_instant_preview_id }}
       {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
     {{ end -}}
+    {{ with .Site.Params.Social }}
+      <!-- Social links or meta tags -->
+    {{ end }}
 </head>
